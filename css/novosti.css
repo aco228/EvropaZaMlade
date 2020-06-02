@@ -1,0 +1,91 @@
+::selection { background: #efbf19; }
+::-moz-selection { background: #efbf19; }
+
+#_naslov_naslov{
+	position: fixed; top:7%;
+	width: 100%;
+	padding-top:0.5%; padding-bottom: 0.5%;
+	padding-left: 10%;
+	background-color: rgba(239, 191, 25, 0.21);
+	color: rgb(65, 65, 65);
+	font-size: 16pt;
+	z-index: 15;
+}
+	/* NOVOSTI CONTENT */
+	.novosti_sekcija{
+		background-color: #f2f2f2;
+		padding-top: 1%;
+	}
+	#content{
+		background-color: #FFF;
+		width: 755px;
+		margin: 0px auto;
+		border: 1px solid #dedede;
+		font-size: 15px;
+		padding: 20px; 
+	}
+	.blok{
+		height: 250px; overflow: hidden;
+		width: 100%;
+		cursor: hand; cursor: pointer;
+		margin-bottom: 20px;
+		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+	}
+	.blok_slika{
+		float:left;
+		height: 250px;
+		width: 250px;
+		background-image: url('http://i.telegraph.co.uk/multimedia/archive/00684/sto-ed-joydivision_684502c.jpg');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 200%;
+		background-size-x;
+	}
+	.blok_naslov{
+		font-family: Impact, Charcoal, sans-serif;
+		font-size: 30pt;
+		color:#3d3d3d;
+		margin-left: 270px;
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+	.blok_opis{
+		font-size: 12pt;
+		margin-left: 270px;
+		color:#505050;
+	}
+	.blok_detail{
+		font-size: 10pt;
+		color:#505050;		
+		background-color: rgb(238, 238, 238);
+		padding: 3px;
+		padding-left: 270px;
+	}
+
+	/* NAVIGACIJA */
+	#navigacija{
+		background-color: #FFF;
+		width: 755px;
+		height: 25px;
+		margin: 0px auto;
+		border: 1px solid #dedede;
+		font-size: 10pt;
+		padding: 5px;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+	.navBtn{
+		padding: 5px;
+		background-color: #efbf19;
+		color:#FFF;
+		float:left;
+		cursor: hand; cursor: pointer;
+		margin-right: 5px;
+	}
+	.navBtnSpace{
+		padding: 5px;
+		color: #000;
+		float:left;
+		margin-right: 10px;
+		margin-left: 10px;
+	}

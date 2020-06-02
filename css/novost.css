@@ -1,0 +1,173 @@
+::selection { background: #efbf19; }
+::-moz-selection { background: #efbf19; }
+
+#_naslov_naslov{
+	position: fixed; top:7%;
+	width: 100%;
+	padding-top:0.5%; padding-bottom: 0.5%;
+	padding-left: 10%;
+	background-color: #efbf19;
+	color: #FFF;
+	font-size: 16pt;
+	z-index: 15;
+}
+
+	/* NOVOST TEKST */
+		.novost_tekst_sekcija{
+			margin-top: 1%;
+			padding-left: 10%; padding-right: 10%;
+			padding-top: 2.5%; padding-bottom: 2.5%;
+			overflow: auto;
+		}
+		/* NASLOV */
+			.novosti_tekst_slika_naslov{
+				position: relative;
+				background-position: center;
+				background-size: cover;
+				margin-bottom: 15px; width: 100%; height: 350px;
+				overflow: hidden;
+				color:#efbf19;
+				z-index: 10;
+				box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+			}
+			.novosti_tekst_slika_naslov > #_autor{
+				font-size: 80%;
+				width: 100%;
+				background-color: rgba(0, 0, 0, 0.5);
+				padding: 3px; padding-left: 2%;
+				font-family: Calibri_b;
+			}
+			.novosti_tekst_slika_naslov > #_naslov{
+				position: absolute;
+				top:200px; left:5px;
+				font-size: 40pt;
+				padding: 3px;
+				background-color: rgba(0, 0, 0, 0.7);
+				font-family: Impact, Charcoal, sans-serif;
+			}
+			.novosti_tekst_slika_naslov > #_opis{
+				position: absolute;
+				top:279px; left:5px;
+				color:#000;
+				font-size: 15pt;
+				padding: 3px;
+				background-color: rgba(255, 255, 255, 0.7);
+			}
+
+		#novost_tekst{
+			color:#373636;
+			font-size: 12pt; 
+			width: 100%; float:left;
+		}
+		#novost_tekst a{ color: rgb(0, 86, 179); font-family: Calibri_B;} 
+		#novost_tekst a:hover{ background-color:rgba(192, 192, 192, 0.35); color: rgb(83, 85, 90); }
+		#novost_tekst > img{
+			/*float:left; max-width: 25%;*/
+			margin: 5px; width: 100%; height: 40%;
+		}
+		#social_media{
+			margin-top: 30px;
+			margin-bottom: 20px;
+		}
+
+
+	/* INFORMACIJE O TEKSTU */
+		#novost_tekst_info{
+			/* box */
+			padding: 0.3%;
+			width: 17%; float: right;
+			font-size: 11pt;
+		}
+		.novost_tekst_info_informacija{
+			/* naslov informacije */
+			text-transform: uppercase;
+			margin-top: 15px; 
+			color:#a0a0a0;
+		}
+		#novost_tekst_info_slika{
+			/* Slika test */
+			width: 56px; height: 56px;
+			background-color: #efbf19;
+		}
+		.novost_tekst_info_odgovor{
+			/* odgovor na informaciju */
+			color:#252525;
+			font-size: 11pt;
+		}
+		#novost_tekst_info > input[type=button]{
+			background-color:rgb(92, 95, 255);
+			 border: 1px solid #4347ff;
+			padding: 5px; padding-left: 10px; padding-right: 10px;
+			color:#FFF;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+			cursor:hand; cursor:pointer;
+			margin-right: 1px;
+		}
+		#novost_tekst_info > input[type=button]:hover{
+			background-color: rgb(55, 58, 207);
+		}
+
+body{ background-color: #EBE8E8; }
+#tekst_novosti{
+	border: none;
+	padding: 15px;
+}
+#tekst_novosti:hover { background-color: rgba(255, 255, 255, 0.37);}
+.novost_meni{
+	position: fixed;
+	top:7.7%; right: 0px;
+	font-size: 15pt;
+	margin-left: 10%; margin-right: 10%;
+	z-index: 20;
+}
+.novost_meni > input[type=button]{
+	background-color: rgb(255, 131, 92);
+	border: 1px solid #FF4343;
+	padding: 5px; padding-left: 10px; padding-right: 10px;
+	color:#FFF;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	cursor:hand; cursor:pointer;
+	margin-right: 1px;
+}
+
+/*
+	`PROMJENA NOVOSTI
+*/
+	#promjena_novosti{ font-size: 10%; display: none; }
+	#promjena_novosti > .promjena_line{
+		color: rgba(0, 28, 88, 0.78);
+		background-color: rgba(177, 179, 206, 0.08);
+		border: none;
+		padding: 2px;
+		border-radius: 5px;
+		box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.24);
+		margin: 2px;
+		font-weight: bold;
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	#promjena_novosti > #promjena_tekst{
+		width: 100%;
+		color: rgba(0, 28, 88, 0.78);
+		background-color: rgba(177, 179, 206, 0.08);
+		border: none;
+		padding: 2px;
+		border-radius: 5px;
+		box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.24);
+		margin: 2px;
+		margin-bottom: 10px;
+	}
+	#promjena_novosti > input[type=button]{
+		background-color: rgb(255, 131, 92);
+		border: 1px solid #FF4343;
+		padding: 5px; padding-left: 10px; padding-right: 10px;
+		color:#FFF;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+		cursor:hand; cursor:pointer;
+		margin-right: 1px;
+		width: 100%;
+		margin-bottom: 25px;
+	}

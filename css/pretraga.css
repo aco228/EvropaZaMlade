@@ -1,0 +1,156 @@
+::selection { background: #efbf19; }
+::-moz-selection { background: #efbf19; }
+
+#_naslov_naslov{
+	position: fixed; top:7%;
+	width: 100%;
+	padding-top:0.5%; padding-bottom: 0.5%;
+	padding-left: 10%;
+	background-color: rgba(239, 191, 25, 0.21);
+	color: rgb(65, 65, 65);
+	font-size: 16pt;
+	z-index: 15;
+}
+	/* PRETRAGA */
+		.unos_naslov{
+			font-family: Impact, Charcoal, sans-serif;
+			font-size: 13pt;
+			margin-bottom: 5px;
+			color:rgb(56, 56, 56);
+		}
+		input[class=input_no_error]{
+			width: 99%;
+			height: 20px;
+			padding: 2px;
+			border:1px solid #b8baff;
+			background-color: #f4f4ff;
+		}
+		.dropDown{
+			float:left;
+			width: 100%;
+			height: 26px;
+			padding: 2px;
+			border:1px solid #b8baff;
+			background-color: #f4f4ff;
+			margin-bottom: 5px;
+		}
+		input[class=input_no_error_dan]{
+			float:left;
+			width: 30%;
+			height: 20px;
+			padding: 2px;
+			border:1px solid #b8baff;
+			background-color: #f4f4ff;
+			margin-right: 2px;
+		}
+		.datum_rodjenja{
+			float:left;
+			width: 37%;
+			height: 26px;
+			padding: 2px;
+			border:1px solid #b8baff;
+			background-color: #f4f4ff;
+			margin-bottom: 5px;
+			margin-right: 2px;
+		}
+		#btnPotvrdi{
+			width: 100%;
+			height: 35px;
+			margin-top: 5px;
+			border:1px solid #f4f4ff;
+			background-color: #b8baff;
+			cursor:hand; cursor:pointer;
+		}
+	/* NOVOSTI CONTENT */
+	.novosti_sekcija{
+		background-color: #f2f2f2;
+		padding-top: 1%;
+	}
+	.content{
+		background-color: #FFF;
+		width: 755px;
+		margin: 0px auto;
+		margin-bottom: 10px;
+		border: 1px solid #dedede;
+		font-size: 15px;
+		padding: 20px;
+	}
+	.blok{
+		height: 109px; overflow: hidden;
+		width: 100%;
+		cursor: hand; cursor: pointer;
+		margin-bottom: 20px;
+		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+		background-color: #FFF;
+	}
+	.blok_slika{
+		float:left;
+		height: 109px;
+		width: 250px;
+		background-image: url('http://i.telegraph.co.uk/multimedia/archive/00684/sto-ed-joydivision_684502c.jpg');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 200%;
+		background-size-x;
+	}
+	.blok_naslov{
+		font-family: Impact, Charcoal, sans-serif;
+		font-size: 20pt;
+		color:#3d3d3d;
+		margin-left: 255px;
+		margin-bottom: 2px;
+	}
+	.blok_opis{
+		font-size: 9pt;
+		margin-left: 255px;
+		height: 30px; overflow: hidden;
+		color:#505050;
+	}
+	.blok_detail_novost{
+		font-size: 10pt;
+		color:#FFF;		
+		background-color: #efbf19;
+		padding: 3px;
+		padding-left: 255px;
+	}
+	.blok_detail_kamp{
+		font-size: 10pt;
+		color:#FFF;		
+		background-color: rgb(90, 209, 79);
+		padding: 3px;
+		padding-left: 255px;
+	}
+	.blok_detail_clan{
+		font-size: 10pt;
+		color:#FFF;		
+		background-color: #4347ff;
+		padding: 3px;
+		padding-left: 255px;
+	}
+
+	/* NAVIGACIJA */
+	#navigacija{
+		background-color: #FFF;
+		width: 755px;
+		height: 25px;
+		margin: 0px auto;
+		border: 1px solid #dedede;
+		font-size: 10pt;
+		padding: 5px;
+		margin-bottom: 15px;
+	}
+	.navBtn{
+		padding: 5px;
+		background-color: #efbf19;
+		color:#FFF;
+		float:left;
+		cursor: hand; cursor: pointer;
+		margin-right: 5px;
+	}
+	.navBtnSpace{
+		padding: 5px;
+		color: #000;
+		float:left;
+		margin-right: 10px;
+		margin-left: 10px;
+	}

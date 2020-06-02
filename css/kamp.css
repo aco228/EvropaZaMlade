@@ -1,0 +1,176 @@
+::selection { background: #efbf19; }
+::-moz-selection { background: #efbf19; }
+
+#_naslov_naslov{
+	position: fixed; top:7%;
+	width: 100%;
+	padding-top:0.5%; padding-bottom: 0.5%;
+	padding-left: 10%;
+	background-color: rgb(90, 209, 79);
+	color: #FFF;
+	font-size: 16pt;
+}
+._header_{
+	position: fixed;
+	padding-top: 4%;
+	padding-left: 10%; padding-right: 10%;
+	background-color: rgb(90, 209, 79);
+	color:#FFF;
+	padding-bottom: 5%;
+	z-index:254;
+}
+._header_ > #_naslov_teksta{
+	font-size: 40pt;
+}
+._header_ > #_opis_teksta{
+	font-size: 20pt;
+}
+
+.clan_meni{
+	position: absolute;
+	top:7.5%; right: 0px;
+	font-size: 15pt;
+	margin-left: 10%; margin-right: 10%;
+}
+.clan_meni > input[type=button]{
+	background-color:rgb(218, 116, 77);
+	 border: 1px solid #009200;
+	padding: 5px; padding-left: 10px; padding-right: 10px;
+	color:#FFF;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	cursor:hand; cursor:pointer;
+	margin-right: 1px;
+}
+.clan_meni > input[type=button]:hover{
+	background-color: rgb(55, 58, 207);
+}
+	/* LIJEVO  */
+		.kamp_glavneInfo {
+			position: fixed;
+			float:left; 
+			margin-left: 20px; 
+			width: 11%; 
+			padding: 10px;
+			padding-top: 0.5%;
+			left: 0.15%;
+			top: 18%;
+			height: 50%;
+			font-size: 10%;
+			box-shadow: 0px 0px 10px #000;
+			border-radius: 5px;
+			background-color: #313131;
+			background-repeat: no-repeat;
+		}
+		.glavneInfo{
+			background-color: rgba(0, 0, 0, 0);
+			width: 90%;
+			border: none;
+			color:#FFF;
+			font-size: 120%;
+		}
+		#ime_kampa{ font-size: 120%; height: 80px; font-family: Calibri; font-weight: 100; }
+		.kamp_glavneInfo .clan_info{
+			margin-top: 10px;
+			text-transform:uppercase;
+			color:#7f7f7f;
+			text-shadow:0px 0px 1px #7f7f7f; 
+		}
+		.kamp_glavneInfo .clan_info_txt{
+			color:#DFDCDC;;
+		}
+
+	/*OPCIJE */
+	#opcije{
+		position: fixed;
+		width: 12.5%; 
+		left: 0.15%;
+		top: 72%;
+		margin-left: 20px;
+		font-size: 10%;
+	}
+	#opcije input[type=button]{
+		margin-top: 5px;
+		border: none;
+		color: #fff;
+		padding: 5px;
+		border-radius: 5px;
+		background-color: #313131;
+		background-repeat: no-repeat;
+		box-shadow: 0px 0px 10px #000;
+		width: 100%;
+		cursor:hand; cursor:pointer;
+	}
+	#opcije input[type=button]:hover{background-color: #585858;; }
+
+	/* DODATNE INFO */
+		.kamp_dodatneInfo{
+			position: absolute;
+			padding: 10px;
+			left: 16%;
+			top:9%;
+			width: 81%;
+			font-size: 10%;
+			z-index:0;
+		}
+		.kamp_dodatneInfo a{ color: rgb(0, 86, 179); font-family: Calibri_B;} 
+		.kamp_dodatneInfo a:hover{ background-color:rgba(192, 192, 192, 0.35); color: rgb(83, 85, 90); }
+		.kamp_dodatneInfo .kontenjer{
+			background-color: rgba(255, 255, 255, 0.9);
+			padding: 15px;
+			border-radius: 5px;
+			margin-bottom: 15px;
+			box-shadow: 0px 0px 10px #FFF;
+		}
+		.kontenjer .kontenjerInfo{
+			background-color: rgba(0, 0, 0, 0);
+			font-family: Calibri, sans-serif; font-weight: 100;
+			border: none;
+			width: 100%;
+		}
+		.kontenjer table{ width: 100%; }
+		.kontenjer table td:first-child{ width: 17%; }
+		.kontenjer .kontenjerText{
+			background-color: rgba(0, 0, 0, 0);
+			font-family: Calibri, sans-serif; font-weight: 100;
+			border: none;
+			width: 100%;
+			font-size: 110%;
+		}
+		.kontenjer #kamp_pripada{ 
+			font-family: Calibri_B;
+			font-size: 100%;
+			color: #1B52C5;
+			text-shadow: 0px 0px 3px rgba(163, 149, 149, 0.4);
+			text-transform: uppercase;
+		}
+		.kamp_dodatneInfo .clan_info{
+			text-transform:uppercase;
+			color:#7f7f7f;
+			font-size: 90%;
+		}
+		.kamp_dodatneInfo .clan_info_txt{
+			font-size: 100%;
+			color:#373636;
+		}
+		.paar{
+			background-color: #000;
+		}
+		#background_image{
+			position: fixed; width: 100%; height: 100%;
+			background-size: cover; background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-position: center;
+			display: none;
+			background-color: rgba(0, 0, 0, 0);
+			z-index: -1;
+		}
+		#bacground_image_shadow{
+			position: fixed; width: 100%; height: 100%;
+			background-color: rgba(0, 0, 0, 0);
+			z-index: 0;
+		}
+		body{ 
+			min-height: 0; 
+			background-color: #D5D5D5;
+		}

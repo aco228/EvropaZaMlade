@@ -1,0 +1,332 @@
+/*===============================*/
+/* Osnovna podesavanja */
+	@font-face{
+		font-family:Calibri_N;
+		src:url(../ekstra/fontovi/calibri.ttf), url(../ekstra/fontovi/calibri.eot);
+	}
+	@font-face{
+		font-family:Calibri_B;
+		src:url(../ekstra/fontovi/calibriBold.ttf), url(../ekstra/fontovi/calibriBold.eot);
+	}
+	@font-face{
+		font-family:Calibri_L;
+		src:url(../ekstra/fontovi/calibriLight.ttf), url(../ekstra/fontovi/calibriLight.eot);
+	}
+	html, body {
+		margin: 0;
+		padding: 0;
+		border: none;
+		height: 100%;
+		font-family:Calibri, sans-serif;
+		font-weight:100;
+		text-rendering: optimizeLegibility !important;
+		-webkit-font-smoothing: antialiased !important;
+	}
+	b { font-family: Calibri_B; }
+	body{
+		font-size:100pt;
+		background-color:#FFF;	
+		min-width: 906px;min-height: 706px;
+	}
+	/* ===================*/
+	/* DEKORACIJA LINKOVA */
+		/* linkovi sa login stranice */
+		.__link_login:link{ 
+			background-color:rgb(37, 90, 184);
+			padding: 3px;
+			margin: 5px; 
+			border: 1px solid #000;
+			color: #FFF; 
+			width: 50%;
+		}
+		.__link_login:visited{ color: #FFF;  }
+		a:link{ color:#dddddd; text-decoration:none; }
+		a:visited { color:#dddddd; }
+		a:hover {}
+		a img {border:none }
+		a img:hover{ border: none; }
+
+/*==============================*/
+/* HEADER */
+	.__header{
+		position:fixed;
+		width:100%; height:7.46%;
+		top:0px; left:0px;
+		background-color:#181818;
+		z-index:255;	
+		min-height: 45px;
+	}
+	.__headerNoSpace{
+		/* razgranicenje od headera */
+		position:relative;
+		width:100%; height:7%;
+		background-color:#181818;	
+	}
+
+	/*===================*/
+	/* LOGO*/
+	#__header_logo{
+		position:relative;
+		margin-left:5%;
+		height:100%;  width:40%;  overflow:hidden;
+		background-color:#181818;
+		display:block;
+		color:#FFF;
+		z-index:254;
+	}
+	#__header_logo_naslov{
+		/* Ime sajta */
+		position:absolute;
+		top: 4%;
+		left: 15%;
+		font-size: 25%;
+		font-family:Impact, Charcoal, sans-serif; font-weight:100;
+		text-shadow:0px 0px 5px #000; 
+		text-transform: uppercase;
+		color:#d9d9d9;
+		cursor:hand; cursor:pointer;
+		z-index:244;
+	}
+	#__header_logo_sjenka{
+		/* Plava sjenka div */
+		background-image:url(../slike/sys_logo/plavi_sjaj.png);
+		background-size:cover; background-position:left;
+		background-repeat:no-repeat;
+		width:70%; height:320%;
+		z-index:243;	
+		z-index: 102;
+	}
+	#__header_logo_sjenka > img{
+		/* Slika sa zvijezdama */
+		position:absolute;
+		top:-65%;left:25%;
+		width:22.5%; height:230%;/*257*/
+		z-index: 103;
+	}
+	/* INFO BAR ZA LOGO */
+	#__header_logo_innerInfo_cover{
+		display:none;
+		position:absolute;
+		top:100%; left:10%;
+		width:583px; height:300px;
+		font-size:15%; color:#FFF;
+		background-color:#181818;
+		z-index:-1;
+	}
+	#__header_logo_innerInfo{
+		position:absolute;
+		top:25%; padding:3%;
+		width:94%; height:64%;
+		background-image:url('../slike/sys_logo/info.png'); 
+		box-shadow: 0px 0px 5px #181818;
+
+	}
+	#__header_logo_innerInfo >a > img{
+		position: absolute;
+		top:19px; left: 226px;
+	} 
+	#__header_logo_innerInfo > #__header_logo_innerInfo_opis{
+		display: none;
+		position: absolute;
+		top:-20px; left: 0px;
+		text-align: center;
+		text-shadow:0px 0px 20px #000;
+		width: 100%;
+	}
+	
+	/*==================*/
+	/* MENU */
+		#__header_menu{
+			position:absolute;
+			right:8%;top:10%;
+			color:#7f7f7f;
+			width:30%; height:100%; 
+			font-size:9%;
+			text-transform: uppercase;
+		}
+		#__header_menu ul{ list-style:none; } /* skidanje sranja pored liste */
+		#__header_menu > ul> li{
+			/* Podesavanje clanova GLAVNOG menija */
+			float:left;
+			padding:1.2%;
+		}
+		
+		/* UGNJEZDENI MENI */
+			/*projekti sub-menu sekcija*/
+			#_header_menu_projekti table{
+				display: none;
+				text-transform: none;
+				position: absolute;
+				left: -10%;
+				width: 100%;
+				height: auto;
+				background-color:rgba(24, 24, 24, 0.85);
+				box-shadow:0px 2px 15px rgba(255, 255, 255, 0.3);
+				text-align: right;
+				vertical-align: top;
+			}
+			#_header_menu_projekti table tr:first-child{ background-color: rgba(255, 255, 255, 0.2); color: #FFF; cursor: default; }
+			#_header_menu_projekti table td{ padding: 1px; vertical-align: top; padding-right: 3px;}
+			#_header_menu_projekti table td:hover{ background-color: rgba(61, 67, 73, 0.3); color: #FFF; text-shadow:0px 0px 5px #FFF;}
+		#__header_menu ul ul{ 
+			/* podesavanje za UGNJEZDENU listu menija*/ 
+			display:none;
+			position:absolute; 
+			padding:5px; 
+			background-color:rgba(24, 24, 24, 0.5);
+			list-style:inside disc;
+		}
+		#__header_menu > ul> li > ul > li{
+			/* Podesavanje clanova UGNJEZDENOG menija */
+			margin-top:0.8%;
+		}
+		
+		/* TABELA UGNJEZDENI MENI */
+		#__header_menu_jezici table{ 
+			/* podesavanje za ugnjestenu listu menija*//* TABELA */
+			display:none;
+			position:absolute; 
+			padding:0px; 
+			background-color:rgba(24, 24, 24, 0.85);
+			box-shadow:0px 2px 15px rgba(255, 255, 255, 0.3);
+			text-transform: none;
+			padding: 3px;
+		}
+		#__header_menu_jezici table tr:hover{ background-color: rgba(61, 67, 73, 0.3); color: #FFF; text-shadow:0px 0px 5px #FFF;} 
+		#__header_menu ul table tr{ margin:0px; border:1px solid #000;}
+		
+		/* LINKOVI UNUTAR MENIJA */
+		._header_menuLink:link{ color:#7f7f7f;}
+		._header_menuLink:visited{ color:#7f7f7f; }
+		._header_menuLink:hover{ color:rgb(204, 204, 204); }
+		._header_menuLink2:link{ color:#aaa9a9; } /* nested */
+		._header_menuLink2:visited{ color:#aaa9a9 }
+
+	/* / MENU / */
+		
+	/*====================*/
+	/* __ FOTER KONTAKT   */
+		#__footer_kontakt{
+			position: relative;
+			width: 100%; height: auto;
+			background-color:#181818;
+			color: #FFF; 
+		}
+		#__footer_kontakt>.footer_wraper{
+			padding-left: 10%; padding-right: 10%; padding-bottom: 2%;
+		}
+		#__footer_kontakt table td {width: 33%; }
+		#__footer_kontakt table td:hover {background-color: #1D1B1B; }
+		#__footer_kontakt_naslov{
+			padding-top:3%; margin-bottom: 2%; font-size: 13.52%; font-weight: 100;
+		}
+		#__footer_kontakt table{
+			width: 100%; 
+		} 
+		.__footer_opis{
+			margin-top: 5px;
+			color: rgb(145, 167, 255); font-size: 10.3%; text-shadow:0px 0px 5px #000; 
+		}
+		.__footer_info{
+			font-size: 10%;
+		}
+		#__footer_infoAutor{
+			font-size: 100%; color:#FFF; 
+		}
+		.__footer_infoAutorClass{ font-size: 10.3%; }
+		#__footer_opis_id{margin-top: 2%;}
+
+	/*======================*/
+	/*    LOGIN SEKCIJA    */
+		#__header_cover{
+			position: absolute; top:0px; left:0px;
+			width: 100%; height: 100%;
+			display: none;
+			background-color: rgba(138, 138, 138, 0.8);
+			z-index: 260;
+		}
+		.__header_login_sekcija{
+			padding: 15px; 
+			font-size: 12pt;
+			position: absolute;
+	        left:0; right:0; top:0; bottom: 0;
+	        margin-top: auto; margin-bottom: auto;
+	        margin-left:auto; margin-right:auto;
+			width: 300px; height: 200px;
+			overflow: visible;
+			background-color: rgba(29, 29, 29, 0.8);
+			-moz-border-radius: 15px;
+			border-radius: 15px;
+			box-shadow: 0px 0px 6px rgba(29, 29, 29, 0.8);
+			color:#FFF;
+			z-index: 261;
+			display: none;
+		}
+		#__header_login_sekcija_greska{
+			position: absolute;
+			top:20px; right: 20px;
+			text-align: right;
+		}
+		#__header_login_sekcija_naslov{
+			font-family: Impact, Charcoal, sans-serif;
+			text-transform: uppercase;
+			font-size: 20pt;
+			color:#FFF;
+		}
+		.__header_login_sekcija>table{margin-top: 15px; margin-bottom: 15px; width: 100%;}
+		.__header_login_sekcija_tdLeft{text-align: right; text-transform: uppercase; font-size: 12pt; }
+		.__header_login_sekcija input[type=text], input[type=password]{
+			width: 95%;
+			height: 25px;
+			margin-top: 8px; 
+			background-color: rgba(255, 255, 255, 0.9);
+			padding: 3px; padding-left: 6px;
+			color:rgb(80, 80, 80);
+		}
+		.__header_login_sekcija input[type=button]{
+			width: 48%;
+			padding: 4px;
+			background-color: rgba(255, 255, 255, 0.8);
+			color:rgb(80, 80, 80);
+			cursor:hand; cursor:pointer;
+		}
+		.__header_login_sekcija_{
+			text-align: right;
+		}
+		#__header_cover_linkovi{
+			/* Linkovi za registraciju, login i izlaz */
+			margin-top: 25px;
+		}
+	/*PRETRAGA*/
+	.__header_pretraga_sekcija{
+		padding: 15px; 
+		font-size: 12pt;
+		position: absolute;
+	    left:0; right:0; top:0; bottom: 0;
+	    margin-top: auto; margin-bottom: auto;
+	    margin-left:auto; margin-right:auto;
+		width: 300px; height: 150px;
+		overflow: visible;
+		background-color: rgba(29, 29, 29, 0.8);
+		-moz-border-radius: 15px;
+		border-radius: 15px;
+		box-shadow: 0px 0px 6px rgba(29, 29, 29, 0.8);
+		color:#FFF;
+		z-index: 261;
+		display: none;
+	}
+	.__header_pretraga_sekcija input[type=text], input[type=password]{
+		width: 95%;
+		height: 25px;
+		margin-top: 8px; 
+		background-color: rgba(255, 255, 255, 0.9);
+		padding: 3px; padding-left: 6px;
+		color:rgb(80, 80, 80);
+	}
+	.__header_pretraga_sekcija input[type=button]{
+		width: 48%;
+		padding: 4px;
+		background-color: rgba(255, 255, 255, 0.8);
+		color:rgb(80, 80, 80);
+		cursor:hand; cursor:pointer;
+	}

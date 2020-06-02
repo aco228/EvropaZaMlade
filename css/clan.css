@@ -1,0 +1,145 @@
+::selection { background: #efbf19; }
+::-moz-selection { background: #efbf19; }
+
+#_naslov_naslov{
+	position: fixed; top:7%;
+	width: 100%;
+	padding-top:0.5%; padding-bottom: 0.5%;
+	padding-left: 10%;
+	background-color: #4347ff;
+	color: #FFF;
+	font-size: 16pt;
+}
+._header_{
+	padding-top: 4%;
+	padding-left: 10%; padding-right: 10%;
+	background-color: #4347ff;
+	color:#FFF;
+	padding-bottom: 5%;
+}
+._header_ > #_naslov_teksta{
+	font-size: 40pt;
+}
+._header_ > #_opis_teksta{
+	font-size: 20pt;
+}
+
+.clan_meni{
+	position: fixed;
+	top:7.7%; right: 0px;
+	font-size: 15pt;
+	margin-left: 10%; margin-right: 10%;
+}
+.clan_meni > input[type=button]{
+	background-color:rgb(92, 95, 255);
+	 border: 1px solid #4347ff;
+	padding: 5px; padding-left: 10px; padding-right: 10px;
+	color:#FFF;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	cursor:hand; cursor:pointer;
+	margin-right: 1px;
+}
+.clan_meni > input[type=button]:hover{
+	background-color: rgb(55, 58, 207);
+}
+	/* CLAN */
+		.clan_sekcija{
+			padding-left: 5%; padding-right: 5%;
+			padding-top: 1%; padding-bottom: 2.5%;
+			overflow: auto;
+			font-size: 10pt;
+		}
+		.clan_sekcija table{ width: 100%; }
+		.clan_sekcija .tdTable{ vertical-align: top; width: 50%; }
+		#clan_foto{
+			width: 20%;
+			height: 80%;
+			background-color: #efbf19;
+		}
+		.clan_info{
+			margin-top: 5px;
+			text-transform:uppercase;
+			color:#7f7f7f;
+		}
+		.clan_info_txt{
+			color: rgba(0, 28, 88, 0.78);
+			background-color: rgba(177, 179, 206, 0.08);
+			padding: 2px;
+			border-radius: 5px;
+			width: 450px;
+			box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.24);
+			margin: 2px;
+			font-size: 90%;
+			font-weight: bold;
+		}
+		.info_promjena{
+			color: rgba(0, 28, 88, 0.78);
+			background-color: rgba(177, 179, 206, 0.08);
+			border: none;
+			padding: 2px;
+			border-radius: 5px;
+			width: 450px;
+			box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.24);
+			margin: 2px;
+			font-size: 90%;
+			font-weight: bold;
+		}
+		.info_promjena_text{
+			color: rgba(0, 28, 88, 0.78);
+			background-color: rgba(177, 179, 206, 0.08);
+			border: none;
+			padding: 2px;
+			border-radius: 5px;
+			width: 450px; max-width: 450px;
+			box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.24);
+			margin: 2px;
+			height: 120px;
+		}
+		.paar{
+			background-color: #000;
+		}
+		#potvrda_promjene{
+			background-color: rgb(92, 95, 255);
+			border: 1px solid #4347ff;
+			padding: 5px;
+			padding-left: 10px;
+			padding-right: 10px;
+			color: #FFF;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+			cursor: hand;
+			cursor: pointer;
+			margin-right: 1px;
+			width: 450px;
+			margin-top: 20px;
+		}
+	#desna_strana>table{
+		width: 680px;
+		text-align: center;
+	}
+	#desna_strana tr:nth-child(odd){
+		background-color: rgba(0, 41, 255, 0.06);;
+	}
+	#desna_strana tr:first-child{
+		background-color: #4347ff;
+		padding: 3px;
+		color:#FFF;
+		font-weight: bold;
+	}
+	#desna_strana tr a{
+		color: #002AD5;
+		font-weight: bold;
+	}
+	#desna_strana tr a:hover{
+		color: #000;
+		font-weight: bold;
+		text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+	}
+	.info_boks_adminskaObavjestenja{
+		margin-bottom: 20px;
+		background-color: #F5F5F5;
+		padding: 5px;
+	}
+	.info_boks_adminskaObavjestenja a{ color:rgb(0, 86, 179); font-family: Calibri_B; }
+	.info_boks_adminskaObavjestenja a:hover{ background-color: rgba(192, 192, 192, 0.35); color: rgb(83, 85, 90); }

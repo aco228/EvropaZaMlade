@@ -1,0 +1,26 @@
+/* DUGMAD */
+#admin_menu > input[type=button]{
+	background-color:rgb(92, 95, 255);
+	border: 1px solid #4347ff;
+	padding: 5px; padding-left: 10px; padding-right: 10px;
+	color:#FFF;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	cursor:hand; cursor:pointer;
+	margin-right: 1px;
+}
+#admin_menu > input[type=button]:hover{
+	background-color: rgb(55, 58, 207);
+}
+
+/* MENU */
+#admin_menu{
+	font-size: 15pt;
+	margin-top: 15px; margin-bottom: 15px; margin-left: 15px;
+}
+#admin_content{
+	overflow: auto;
+	font-size: 12pt;
+	padding-left: 10%; padding-right: 10%;
+	padding-top: 0.5%; padding-bottom: 0.5%;
+}

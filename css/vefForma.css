@@ -1,0 +1,130 @@
+::selection { background: #efbf19; }
+::-moz-selection { background: #efbf19; }
+
+#_naslov_naslov{
+	position: fixed; top:7%;
+	width: 100%;
+	padding-top:0.5%; padding-bottom: 0.5%;
+	padding-left: 10%;
+	background-color: #4347ff;
+	color: #FFF;
+	font-size: 16pt;
+}
+._header_{
+	padding-top: 4%;
+	padding-left: 10%; padding-right: 10%;
+	background-color: #4347ff;
+	color:#FFF;
+	padding-bottom: 5%;
+	display: none;
+}
+._header_ > #_naslov_teksta{
+	font-size: 40pt;
+	display: none;
+}
+._header_ > #_opis_teksta{
+	font-size: 20pt;
+	display: none;
+}
+
+
+	/* REGISTRACIJ FORMA */
+		.registracija_sekcija{
+			margin-top: 2%;
+			margin-bottom: 2%;
+			padding-left: 10%; padding-right: 10%;
+			padding-top: 2.5%; padding-bottom: 2.5%;
+			overflow: auto;
+			font-size: 10%;
+		}
+
+		/* LIJEVA STANA UNOS */
+			#lijeva_strana_unos{
+				float:left;
+				width: 60%;
+				background-color:#dbdcfe;
+				border:1px solid #b8baff;
+				padding: 15px;
+			}
+			.unos_naslov{
+				font-family: Calibri_N;
+				margin-top: 15px;
+			}
+			.greska_unos{
+				color:#b30000;
+			}
+			input[class=input_no_error]{
+				width: 80%;
+				height: 20px;
+				padding: 2px;
+				margin-bottom: 5px;
+				border:1px solid #b8baff;
+				background-color: #f4f4ff;
+			}
+
+			/* DATUM RODJENJA */
+			input[class=input_no_error_dan]{
+				float:left;
+				width: 16.5%;
+				height: 20px;
+				padding: 2px;
+				border:1px solid #b8baff;
+				background-color: #f4f4ff;
+			}
+			input[class=input_error_dan]{
+				float:left;
+				width: 16.5%;
+				height: 20px;
+				padding: 2px;
+				border:1px solid #b30000;
+				background-color: #f4f4ff;
+			}
+			#datum_rodjenja{
+				float:left;
+				width: 16.5%;
+				height: 26px;
+				padding: 2px;
+				border:1px solid #b8baff;
+				background-color: #f4f4ff;
+			}
+			.dropDown{
+				float:left;
+				width: 80%;
+				height: 26px;
+				padding: 2px;
+				margin-bottom: 5px;
+				border:1px solid #b8baff;
+				background-color: #f4f4ff;
+			}
+			.bold{font-weight: bold; }
+
+			#pol_korisnika{
+				width: 50%;
+				height: 26px;
+				padding: 2px;
+				border:1px solid #b8baff;
+				background-color: #f4f4ff;
+			}
+			.unosOpis{
+				width: 80%;
+				height: 70px;
+				padding: 2px;
+				border:1px solid #b8baff;
+				background-color: #f4f4ff;
+			}
+			#btnPotvrdi{
+				width: 25%;
+				height: 35px;
+				margin-top: 25px;
+				border:1px solid #f4f4ff;
+				background-color: #b8baff;
+				cursor:hand; cursor:pointer;
+			}
+			input[type=submit]{
+				width: 25%;
+				height: 35px;
+				margin-top: 25px;
+				border:1px solid #f4f4ff;
+				background-color: #b8baff;
+				cursor:hand; cursor:pointer;
+			}

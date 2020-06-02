@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectform>
+	<network>Alliance Partner</network>
+	<application>E-vet</application>
+	<date_filed>2013-03-04</date_filed>
+	<version>1.0</version>
+	<pef_send_by>DGV  Anastasia Simkovich </pef_send_by>
+	<pef_sender_email>digevu@gmail.com</pef_sender_email>
+	<organization>DIGEVU</organization>
+	<organization_code>DGV</organization_code>
+	<projects>
+		<project id="9e9753991f379cddaab45b58f15667fb                  ">
+			<code>DGV MTV03</code>
+			<project_type>PER</project_type>
+			<work>KIDS,</work>
+			<start_date>2013-03-03</start_date>
+			<end_date>2013-03-03</end_date>
+			<name>WALDORF KINDERGARTEN</name>
+			<location>SAMARA</location>
+			<country>RUS</country>
+			<region/>
+			<languages>eng,eng</languages>
+			<>.00</extrafee>
+			<extrafee_currency>RUB</extrafee_currency>
+			<min_age>18</min_age>
+			<max_age>28</max_age>
+			<disabled_vols>0</disabled_vols>
+			<numvol>1</numvol>
+			<vegetarian/>
+			<family>0</family>
+			<description/>
+			<descr_partner>The main idea of the Waldorf pedagogical system is that childhood is a unique period in human life: it is impossible to consider this age as the same as the elder one. It is very important to give a child the opportunity for development in a natural way, according to the age and abilities.There are 40 children in the Kindergarten at the moment. All of them are brought up in an atmosphere of joy, music, songs, theatre, tails, and festivals, warmed with love and care.</descr_partner>
+			<descr_work>- Work with children, which may include playing games, toy-making, reading, painting, music, modeling, theatre, etc. - Assistance in preparation for holidays and festivals - Assistance to the staff in everyday work- Organisation of any activity for parents (music, needlework, etc.) Working schedule: Monday-Friday 5-6 hours per day (an hour lunch break)Saturday-Sunday i days off</descr_work>
+			<descr_accomodation_and_food>Apartment shared with other volunteers or a host family. If sharing an apartment with other volunteers, the volunteer will get monthly food money and will be asked to cook at home.</descr_accomodation_and_food>
+			<descr_location_and_leisure>Samara</descr_location_and_leisure>
+			<descr_requirements>- Aged 18 - Motivation and desire to work with the children - Tolerance and patience - Creativity and new ideas- Knowledge of at least basic Russian is welcome- Experience of working in the spheres of Psychology and Pedagogies is very welcome</descr_requirements>
+			<airport>KUF</airport>
+			<station>Samara</station>
+			<numvol_m>1</numvol_m>
+			<numvol_f>1</numvol_f>
+			<max_vols_per_country>1</max_vols_per_country>
+			<max_teenagers>0</max_teenagers>
+			<max_national_vols>0</max_national_vols>
+			<lat_project>53.2609080</lat_project>
+			<lng_project>50.1980770</lng_project>
+			<notes>Permanent/minimum stay 1 months Motivation letter is needed </notes>
+			<lat_station>53.2609080</lat_station>
+			<lng_station>50.1980770</lng_station>
+			<bi_tri_multi>0</bi_tri_multi>
+		</project>
+		<project id="add6dc958e459b6bc3354d18ddbe30ec                  ">
+			<code>DGVMTV01</code>
+			<project_type>PER</project_type>
+			<work>KIDS,</work>
+			<start_date>2013-03-03</start_date>
+			<end_date>2013-03-03</end_date>
+			<name>SAIL OF HOPE</name>
+			<location>SAMARA</location>
+			<country>RUS</country>
+			<region/>
+			<languages>eng,eng</languages>
+			<extrafee>.00</extrafee>
+			<extrafee_currency>RUB</extrafee_currency>
+			<min_age>20</min_age>
+			<max_age>30</max_age>
+			<disabled_vols>0</disabled_vols>
+			<numvol>1</numvol>
+			<vegetarian/>
+			<family>0</family>
+			<description/>
+			<descr_partner>Our mission is to provide integration of the disabled children of the Samara region into society and to promote the ideas of independent life philosophy and social approach to disability. Its activities are focused on: -providing the disabled children and their families with social and psychological support; -organising and conducting conferences, seminars and lectures on the problems of the disabled children; -cooperating with other public organisations dealing with the similar problems; -revealing childrens creative and intellectual abilities.</descr_partner>
+			<descr_work>- Communicating with the disabled children at the centre or at home two times a week, providing them with moral support and physical assistance- Working with children. This may include reading, drama, sports, etc. thus revealing their creative abilities.- Implementing a club for children with the aim to teach them history, culture, customs and traditions of the volunteers native country.Working schedule: Monday-Friday 5-6 hours per day (an hour lunch break)Saturday-Sunday i days off</descr_work>
+			<descr_accomodation_and_food>Apartment shared with other volunteers or a host family. If sharing an apartment with other volunteers, the volunteer will get monthly food money and will be asked to cook at home.</descr_accomodation_and_food>
+			<descr_location_and_leisure>Samara</descr_location_and_leisure>
+			<descr_requirements>- Aged 18 - Motivation and desire to work with children - Tolerance and patience - Creativity and new ideas- Knowledge of at least basic Russian is welcome- Experience of working in the spheres of Psychology and Pedagogies is very welcome</descr_requirements>
+			<airport>KUF</airport>
+			<station>Samara</station>
+			<numvol_m>1</numvol_m>
+			<numvol_f>1</numvol_f>
+			<max_vols_per_country>1</max_vols_per_country>
+			<max_teenagers>0</max_teenagers>
+			<max_national_vols>0</max_national_vols>
+			<lat_project>53.2609080</lat_project>
+			<lng_project>50.1980770</lng_project>
+			<notes>Minimum stay 3 months/Permanent  Motivation letter is needed</notes>
+			<lat_station>53.2609080</lat_station>
+			<lng_station>50.1980770</lng_station>
+			<bi_tri_multi>0</bi_tri_multi>
+		</project>
+		<project id="1048b1b5ce56dd10b4965304c8a74e24                  ">
+			<code>DGV 01</code>
+			<project_type>STV</project_type>
+			<work>ENVI,</work>
+			<start_date>2013-07-15</start_date>
+			<end_date>2013-07-31</end_date>
+			<name>ARGAMAK</name>
+			<location>SAMARA</location>
+			<country>RUS</country>
+			<region/>
+			<languages>eng,rus</languages>
+			<extrafee>.00</extrafee>
+			<extrafee_currency>RUB</extrafee_currency>
+			<min_age>18</min_age>
+			<max_age>28</max_age>
+			<disabled_vols>0</disabled_vols>
+			<numvol>10</numvol>
+			<vegetarian/>
+			<family>0</family>
+			<description/>
+			<descr_partner>Military historical equestrian club  Argamak </descr_partner>
+			<descr_work>Horses are often an object for admiration, as horses are an embodiment of power and grace, beauty and intelligence. Nowadays riding a horse is not such a usual thing as it used to be in the Past. Today the admirers of the equestrian sport may find very few Riding clubs in the Samara region. Last year  Argamak  offered equestrian classes, long horse rides and short riding excursions in the forest. The club is also known for dramatizing famous battles of different epochs.  Argamak  took part in numerous festivals and presented breathtaking horse tricks. Unfortunately nowadays only volunteers and the fans of equestrian take care of the club and the surrounding areas. For the locals  Argamak  has a historical value. The club staff members need assistance of the volunteers in maintenance, restoration of the club as well as taking care of the animals.  Tasks: - construction of the fence- cleaning the surrounding territories- cleaning the lake- assistance in taking care of the animals (feeding, cleaning, walking)- assistance in construction of the stables - cleaning the shed</descr_work>
+			<descr_accomodation_and_food>Very basic conditions. Tents or a wooden house. Summer shower outside. Summer toilette outside. Please you re your sleeping bags and carpets with you. No internet access on the territory of the club. There s a possibility to have internet access in the internet cafe or in the office of our organization. Food: Breakfast, lunch, dinner and tea breaks will be provided in open air on the territory of the club.</descr_accomodation_and_food>
+			<descr_location_and_leisure>Military historical equestrian club  Argamak  is located on the 18th km in the city of Samara, 20 km from the center of city by public transport. It is possible to reach the main highway of Samara on foot. Right after you go out of the forest, you get to  civilization . The club is very close from the very active part of Samara. It is full of big shopping and entertainment centers. The territory of the club is surrounded by the forest. A little lake is not far from the club. One can find a cottage village very close to the club which makes the life of the animals more complicated because of the forest and lake pollution.</descr_location_and_leisure>
+			<descr_requirements>- age 18 - construction skills are welcome- motivation to take care of the animals - experience of  communication  with animals is welcome- zeal and diligence in physical and routine work  - tolerance and patience - creativity and new ideas- basic Russian is very welcome</descr_requirements>
+			<airport>KUF</airport>
+			<station>Samara</station>
+			<numvol_m>5</numvol_m>
+			<numvol_f>5</numvol_f>
+			<max_vols_per_country>3</max_vols_per_country>
+			<max_teenagers>0</max_teenagers>
+			<max_national_vols>3</max_national_vols>
+			<lat_project>53.2609080</lat_project>
+			<lng_project>50.1980770</lng_project>
+			<notes>This project is offered to those who are not afraid of hard work in the open air and would not mind basic life conditions. </notes>
+			<lat_station>53.2609080</lat_station>
+			<lng_station>50.1980770</lng_station>
+			<bi_tri_multi>0</bi_tri_multi>
+		</project>
+		<project id="6bc4e23daa51ed4faa77e4bfc9c9802c                  ">
+			<code>DGV 02</code>
+			<project_type>STV</project_type>
+			<work>ENVI,</work>
+			<start_date>2013-06-20</start_date>
+			<end_date>2013-07-10</end_date>
+			<name>"NADEZHDA"</name>
+			<location>SAMARA</location>
+			<country>RUS</country>
+			<region/>
+			<languages>eng,eng</languages>
+			<extrafee>.00</extrafee>
+			<extrafee_currency>RUB</extrafee_currency>
+			<min_age>18</min_age>
+			<max_age>28</max_age>
+			<disabled_vols>0</disabled_vols>
+			<numvol>10</numvol>
+			<vegetarian/>
+			<family>0</family>
+			<description/>
+			<descr_partner>The shelter started its work in 2011. The main goal is searching homes for lonely and homeless animals. There are about 100 dogs and 30 cats hosted in the shelter at the moment. The shelter takes care of the animals until a family can host an animal. The staff of the shelter never puts down animals, only if they are painfully ill and there is no hope for recovery. Old animals stay in the shelter till they die. The staff of the shelter takes care of each animal very well. Every animal gets professional care, cleaning procedures and all necessary vaccinations.    The shelter is supported only by donations and care of local volunteers.</descr_partner>
+			<descr_work>In June 2013 the shelter starts construction of a new building. The volunteers will help in constructing the fence, repairing and cleaning the open-air walking area as well as the pound. Requirements:- 18 -  Basic skills working with animals- Sociability- Knowledge of Russian is very welcome- Interested in animals</descr_work>
+			<descr_accomodation_and_food>Holiday house</descr_accomodation_and_food>
+			<descr_location_and_leisure>Samara city</descr_location_and_leisure>
+			<descr_requirements>- age 18 - construction skills are welcome- motivation to take care of the animals - experience of  communication  with animals is welcome- zeal and diligence in physical and routine work  - tolerance and patience - creativity and new ideas- basic Russian is very welcome</descr_requirements>
+			<airport>KUF</airport>
+			<station>Samara</station>
+			<numvol_m>5</numvol_m>
+			<numvol_f>5</numvol_f>
+			<max_vols_per_country>3</max_vols_per_country>
+			<max_teenagers>0</max_teenagers>
+			<max_national_vols>2</max_national_vols>
+			<lat_project>53.2609080</lat_project>
+			<lng_project>50.1980770</lng_project>
+			<notes/>
+			<lat_station>53.2609080</lat_station>
+			<lng_station>50.1980770</lng_station>
+			<bi_tri_multi>0</bi_tri_multi>
+		</project>
+		<project id="e996ee6071b367e1961ce0381a5471a3                  ">
+			<code>DGV MTV02</code>
+			<project_type>PER</project_type>
+			<work>KIDS,</work>
+			<start_date>2013-03-03</start_date>
+			<end_date>2013-03-03</end_date>
+			<name>SYNDROME NOT VERDICT</name>
+			<location>SAMARA</location>
+			<country>RUS</country>
+			<region/>
+			<languages>eng,eng</languages>
+			<extrafee>.00</extrafee>
+			<extrafee_currency>RUB</extrafee_currency>
+			<min_age>18</min_age>
+			<max_age>28</max_age>
+			<disabled_vols>0</disabled_vols>
+			<numvol>1</numvol>
+			<vegetarian/>
+			<family>0</family>
+			<description/>
+			<descr_partner>In our country the diagnosis  syndrome Down  turns out to be the verdict which leads to the loss of parents in most of the cases. Nine of ten families reject their children immediately. And only five of these nine live more than one year. Only 10 of children with the Down syndrome live in families. The rest of them are grown up and educated in orphanages.There is a wide spread opinion in the society that the disabled children are usually born in the families of alcoholics and drug addicts. That is why these families get into the zone of condemnation. The children with the Down syndrome are considered to be physically weak and impossible to educate.Some of the families did not want to put up with this situation and decided to establish a public organisation of parents and defectologists. The mission of this organisation is to defend and realize the rights of the disabled guaranteed by the Constitution of the Russian Federation.The activities of the Organisation are focused on:-defense of the disabled children s rights-participation in elaborating the laws and other juridical acts related to the rights of the disabled-providing psychological support to the children and their families-consulting the families on the questions of the disabled children s rights-providing information on the rehabilitation and medical treatment of the disabled children-creation of library of a specific literature-organisation of the seminars and trainings for the parents and specialists- organisation of leisure time for the disabled children</descr_partner>
+			<descr_work>- Assisting the disabled children- Organisation of the leisure time for the children- Creation of different activities and workshops, such as drawing, dancing, drama, handicrafts- Organisation of a specific workshop, for example, the volunteer can tell the children about the traditions, customs, holidays and day-to-day life of his/her native country- Assistance to the staff of the organizationWorking schedule: Monday-Friday 5-6 hours per day (an hour lunch break)Saturday-Sunday i days off</descr_work>
+			<descr_accomodation_and_food>Apartment shared with other volunteers or a host family. If sharing an apartment with other volunteers, the volunteer will get monthly food money and will be asked to cook at home.</descr_accomodation_and_food>
+			<descr_location_and_leisure>Samara</descr_location_and_leisure>
+			<descr_requirements>- Aged 18 - Motivation and desire to work with the children with the Down syndrome - Tolerance and patience - Creativity and new ideas- Knowledge of at least basic Russian is welcome- Experience of working in the spheres of Psychology and Pedagogies is very welcome</descr_requirements>
+			<airport>KUF</airport>
+			<station>Samara</station>
+			<numvol_m>1</numvol_m>
+			<numvol_f>1</numvol_f>
+			<max_vols_per_country>1</max_vols_per_country>
+			<max_teenagers>0</max_teenagers>
+			<max_national_vols>0</max_national_vols>
+			<lat_project>53.2609080</lat_project>
+			<lng_project>50.1980770</lng_project>
+			<notes>Permanent/minimum stay 1 months</notes>
+			<lat_station>53.2609080</lat_station>
+			<lng_station>50.1980770</lng_station>
+			<bi_tri_multi>0</bi_tri_multi>
+		</project>
+		<project id="3588996ef064239abd2fceabd6bdb9d7                  ">
+			<code>DGV 03</code>
+			<project_type>STV</project_type>
+			<work>RENO,</work>
+			<start_date>2013-06-24</start_date>
+			<end_date>2013-06-30</end_date>
+			<name>MAKKABI</name>
+			<location>SAMARA</location>
+			<country>RUS</country>
+			<region/>
+			<languages>eng,eng</languages>
+			<extrafee>.00</extrafee>
+			<extrafee_currency>RUB</extrafee_currency>
+			<min_age>18</min_age>
+			<max_age>28</max_age>
+			<disabled_vols>0</disabled_vols>
+			<numvol>10</numvol>
+			<vegetarian/>
+			<family>0</family>
+			<description/>
+			<descr_partner>Samara Jewish kindergarten Makkabi was founded in Samara in 1995. The educational program aims at moral and psychological development of children. The children are taught to respect Jewish traditions and customsThe main forms of the education are teaching through games and using visual means.</descr_partner>
+			<descr_work>The kindergarten desperately needs help in taking care of surrounding area, building the children s  playground, repairing the fence.  Besides renovation tasks can also include organization outdoors activities for children in the kindergarten.</descr_work>
+			<descr_accomodation_and_food>The volunteer will be staying either in a host family or will share a rented flat with other volunteers from Europe. In both cases the volunteer will live in the city.</descr_accomodation_and_food>
+			<descr_location_and_leisure>Samara city</descr_location_and_leisure>
+			<descr_requirements>- 18 - Sociability</descr_requirements>
+			<airport>KUF</airport>
+			<station>Samara</station>
+			<numvol_m>5</numvol_m>
+			<numvol_f>5</numvol_f>
+			<max_vols_per_country>3</max_vols_per_country>
+			<max_teenagers>0</max_teenagers>
+			<max_national_vols>2</max_national_vols>
+			<lat_project>53.2609080</lat_project>
+			<lng_project>50.1980770</lng_project>
+			<notes/>
+			<lat_station>53.2609080</lat_station>
+			<lng_station>50.1980770</lng_station>
+			<bi_tri_multi>0</bi_tri_multi>
+		</project>
+	</projects>
+</projectform>
